@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: rgb(9, 68, 177);
+}
+.header-logo img {
+    width: 230px;
+}
+.primary-menu {
+}
+.primary-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a {
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 30px;
+    line-height: 77px;
+    border-right: 1px solid #dddddd;
+    text-decoration: none;
+}
+.primary-menu ul li a:hover {
+    background: rgb(7, 50, 100);
+}
+.banner {
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.banner-text h1 {
+    background: rgba(0, 0, 0, 0.308);
+    color: rgb(229, 240, 240);
+    display: inline-block;
+    font-size: 40px;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+.banner-text h2 {
+    background: rgba(0, 0, 0, 0.534);
+    color: rgb(229, 240, 240);
+    max-width: 400px;
+    margin: auto;
+    font-size: 30px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.about {
+    background: #ebe9e9;
+}
+.service {
+    background: #e2dedeee;
+}
+.card span {
+    background: rgba(56, 53, 240, 0.719);
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 20px 0 20px 0;
+    margin-top: 10px;
+}
+.card h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+img {
+    max-width: 100%;
+}
+.product img{
+    max-width: 100%;
+    height: 170px;
+}
+.product-right ul {
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li {
+    background: #c5c1c1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+.footer {
+    background: #201f20;
+}
+.footer p {
+    margin-bottom: 0;
+}
+.footer a {
+    color: #ffffff;
+    margin-left: 15px;
+    display: inline-block;
+}
+.google-map {
+}
+.contact-form {
+    margin-left: 60px;
+}
